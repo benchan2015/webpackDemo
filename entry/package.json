@@ -1,0 +1,22 @@
+{
+  "name": "page1.js",
+  "version": "0.0.1",
+  "description": "this is a demo",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "sass-loader": "^3.2.0",
+    "node-sass": "^3.7.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+   
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "author": "chenbin",
+  "license": "MIT"
+}
