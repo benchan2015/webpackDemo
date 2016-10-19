@@ -1,0 +1,17 @@
+{
+  "name": "htmlwebpackplugin",
+  "version": "0.0.1",
+  "description": "this is a html webpack plugin test",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack -p"
+  },
+  "author": "chenbin",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.22.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.1"
+  }
+}
